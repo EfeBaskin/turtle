@@ -22,14 +22,13 @@ turtle_instance = turtle.Turtle()
 turtle.Pen()
 turtle.bgcolor('black')
 
-for i in range(360):
+for i in range(200):
     turtle_instance.pencolor(colors_turtle[i % 6])
-    turtle_instance.width(i // 100 + 1)
+    turtle_instance.width(i / 70)
     turtle_instance.forward(i)
     turtle_instance.left(60)
 
-#turtle.done()
-turtle.mainloop()
+turtle.done()
 
 
 
