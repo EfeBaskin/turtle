@@ -4,7 +4,7 @@ turtle_screen.bgcolor('black')
 s = turtle.Turtle()
 s.speed('fastest')
 s.color('brown')
-rotate=int(90)
+
 def Circles(t,size):
     for i in range(10):
         t.circle(size)
@@ -17,7 +17,7 @@ mission1(s,200,10)
 t1 = turtle.Turtle()
 t1.speed(0)
 t1.color('yellow')
-rotate=int(90)
+
 def Circles1(t,size):
     for i in range(6):
         t.circle(size)
@@ -30,7 +30,7 @@ mission2(t1,160,10)
 t2= turtle.Turtle()
 t2.speed(0)
 t2.color('light blue')
-rotate=int(80)
+
 def Circles2(t,size):
     for i in range(4):
         t.circle(size)
@@ -43,7 +43,7 @@ mission3(t2,120,10)
 t3 = turtle.Turtle()
 t3.speed(0)
 t3.color('pink')
-rotate=int(90)
+
 def Circles4(t,size):
     for i in range(4):
         t.circle(size)
@@ -57,7 +57,7 @@ t4= turtle.Turtle()
 t4.speed(0)
 t4.color('green')
 
-rotate=int(90)
+
 def Circles5(t,size):
     for i in range(4):
         t.circle(size)
